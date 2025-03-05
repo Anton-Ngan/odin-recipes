@@ -1,0 +1,42 @@
+* {
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-page {
+    text-align: center;   
+    background-color: antiquewhite;
+}
+
+.recipe-list {
+    line-height: 3;
+    list-style: none;
+    padding-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.recipe {
+    background-color: rgba(247, 228, 205, 0.527);
+    text-align: center;
+}
+
+.recipe ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.recipe ol li {
+    text-align: left;
+    margin: 10px;
+}
+
+#home-link {
+    font-size: 20px;
+    font-weight: bold;
+}
