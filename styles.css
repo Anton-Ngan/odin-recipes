@@ -3,40 +3,50 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.home-page {
-    text-align: center;   
-    background-color: antiquewhite;
+body {
+    background-color: rgba(250, 235, 215, 0.514);
 }
 
-.recipe-list {
-    line-height: 3;
-    list-style: none;
-    padding-left: 0;
-    font-size: 30px;
-    font-weight: bold;
+h1 {
+    font-size: 60px;
 }
 
 a {
-    color: black;
     text-decoration: none;
+    color: black;
+    font-weight: 800;
 }
 
-.recipe {
-    background-color: rgba(247, 228, 205, 0.527);
+a:hover {
+    color: brown;
+}
+
+ul li {
+    list-style-type: none;
+    margin-left: -1.5em;
+}
+
+.home-page {
     text-align: center;
+    font-size: 30px;
+    font-weight: 800;
 }
 
-.recipe ul {
-    list-style: none;
-    padding-left: 0;
+.recipe-card {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(240, 205, 140, 0.486);
+    text-align: center;
+    padding: 10px 50px;
 }
 
-.recipe ol li {
+.recipe-step li {
     text-align: left;
-    margin: 10px;
+    margin: 12px 5px;
 }
 
-#home-link {
+.home-link {
     font-size: 20px;
-    font-weight: bold;
+    padding: 4px;
+    margin: 10px;
 }
